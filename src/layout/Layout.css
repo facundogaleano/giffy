@@ -1,0 +1,6 @@
+.principal-container {
+  display: grid;
+  grid-template-rows: 80px minmax(calc(100vh - 200px), max-content) 80px;
+  gap: 20px;
+}
+

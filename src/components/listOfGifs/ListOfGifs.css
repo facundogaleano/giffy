@@ -1,0 +1,26 @@
+.list-gifs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gif-container {
+  border: solid 0.5px lightseagreen;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.gif-container h4 {
+  justify-self: center;
+  align-self: center;
+  max-width: 70%;
+}
+
+.gif-container img {
+  object-fit: scale-down;
+  padding: 5px;
+  border-radius: 3px;
+}
